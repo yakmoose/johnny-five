@@ -14,7 +14,7 @@ var board = new five.Board();
 board.on("ready", function() {
 
   var sonar = new five.Sonar({
-    device: "SRF10"
+    controller: "SRF10"
   });
 
   function display(type, value, unit) {
